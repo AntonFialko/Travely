@@ -16,3 +16,59 @@ body {
     position: relative;
     text-align: center;
 }
+
+.section__1__title {
+    margin-top: 0;
+    font-family: Headster, 'Headser Regular';
+    font-size: 30px;
+    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.menu__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__item__text {
+    font-weight: 300;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.arrow__down {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-bottom: 3px;
+}
+
+.menu__icon {
+    margin-right: 20px;
+}
+
+.margin__left__0 {
+    margin-left: 0;
+}
+
+.margin__right__0 {
+    margin-right: 0;
+}
