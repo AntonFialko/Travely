@@ -457,6 +457,38 @@
         align-items: center;
         justify-content: center;
     }
+    
+    .footer__textblock {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 90px;
+    }
+    
+    .footer__textblock__item {
+        color: black;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .footer__textblock__item__title {
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .footer__textblock__item__text {
+        font-weight: 300;
+        margin: 0;
+    }
+    
+    .footer__rights {
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        margin-top: 100px;
+    }
     /*Helpers*/
     
     .margin__left__0 {
@@ -510,4 +542,12 @@
         -webkit-transform: rotate(45deg);
         margin-bottom: 15px;
         margin-top: -10px;
+    }
+    
+    .section__2__sale {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 15px;
+        margin-right: 15px;
     }
